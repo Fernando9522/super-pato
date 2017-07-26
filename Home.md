@@ -1,1 +1,1 @@
-testr
+Welcome to supremeDuck wiki :)
