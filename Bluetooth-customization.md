@@ -1,3 +1,6 @@
+The whole process is presented in the following video:  
+[Video presentation](https://www.youtube.com/watch?v=KsuUSxYfdU8&index=4&list=PLnVVAaZSdNGtcMunS1_Wy3smTZLlzIaV2)
+
 1. Download [Arduino IDE](https://www.arduino.cc/en/Main/Software).  
 2. Open [this code](https://github.com/michalmonday/supremeDuck/blob/master/source/bluetooth%20customization/btSerial.ino) in Arduino IDE.   
 3. Pick: "Tools -> Board -> Arduino Leonardo".  
@@ -12,8 +15,7 @@
 The first command should output "OK" message to the serial monitor main area, the second should output "OKsetname", the third should output "OKsetPIN". If that's the output then the name of the device has been successfully changed to "myName" and the pin to "1234".  
 9. Upload the [original supremeDuck](https://github.com/michalmonday/supremeDuck/blob/master/source/supremeDuck.ino) code the same way and it's done.  
 
-The whole process is presented in the following video:  
-[Video presentation](https://www.youtube.com/watch?v=KsuUSxYfdU8&index=4&list=PLnVVAaZSdNGtcMunS1_Wy3smTZLlzIaV2)
+
 
 
 
