@@ -13,7 +13,7 @@ The first command should output "OK" message to the serial monitor main area, th
 9. Upload the [original supremeDuck](https://github.com/michalmonday/supremeDuck/blob/master/source/supremeDuck.ino) code the same way and it's done.  
 
 The whole process is presented in the following video:  
-[Video presentation](https://www.youtube.com/watch?v=KsuUSxYfdU8&index=4&t=21s&list=PLnVVAaZSdNGtcMunS1_Wy3smTZLlzIaV2)
+[Video presentation](https://www.youtube.com/watch?v=KsuUSxYfdU8&index=4&list=PLnVVAaZSdNGtcMunS1_Wy3smTZLlzIaV2)
 
 
 
