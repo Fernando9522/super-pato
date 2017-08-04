@@ -13,7 +13,7 @@ The steps from 3 to 5 are presented in the following video (step 3 starts at 2:2
 
 # Updating Android app:  
 1. Uninstall the old app.
-2. Download the new app from [here](https://github.com/michalmonday/supremeDuck/blob/master/source/supremeDuck.apk) and install again.
+2. Install the new app from the [Google Play Store](https://play.google.com/store/apps/details?id=appinventor.ai_michalmonday17.supremeDuck).
 
 
 
