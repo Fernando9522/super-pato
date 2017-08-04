@@ -2,7 +2,8 @@
 * [Prerequisites](#prerequisites)
 * [Hardware setup](#hardware-setup)
 * [Software setup (Arduino)](#software-arduino)
-* [Software setup (app)](#software-app)
+* [Software setup (app) - option 1](#software-app)
+* [Software setup (app) - option 2](#software-app---alternative-installation-from-source)
 
 
 ***
@@ -51,6 +52,9 @@ Note that the pin has to consist of 4 digits. If everything goes right you shoul
 
 
 # Software (app)
+Install the app on your mobile from the [Google Play Store](https://play.google.com/store/apps/details?id=appinventor.ai_michalmonday17.supremeDuck)
+
+# Software (app) - alternative installation from source
 1.Download MIT project to your PC. Then download [MIT App Inventor 2 Companion](https://play.google.com/store/apps/details?id=edu.mit.appinventor.aicompanion3&hl=en_GB) to your android.  
 2. Register at MIT app inventor website, log into it and import the [MIT project](https://github.com/michalmonday/supremeDuck/blob/master/source/supremeDuck.aia) (Connect -> Import project .aia). I recommend to watch [this tutorial](https://www.youtube.com/watch?v=o-YVvxYiSuk) which explains how to create and manage applications made using this tool.  
 3. Click on Build -> App (provide QR code for .apk). The QR code will appear, it has to be scanned with a smartphone. Open your MIT AI2 Companion app on android and press scan QR code which will should appear on the screen of your PC. (This step isn't necessary to test and develop the application, MIT provides comfortable quick update system which automatically lets the user to preview application while changing its components.)  
@@ -61,3 +65,4 @@ Note that the pin has to consist of 4 digits. If everything goes right you shoul
 ![](http://i.imgur.com/Hz8uInl.png)
 
 ![](http://i.imgur.com/Pjwmz56.png)
+
