@@ -1,5 +1,5 @@
 **Brief description:**  
-Thanks to it the device will work with any language setting on the target PC.
+Thanks to it the device will work with any language setting on the target PC. (works on Windows only)
 
 
 **Explanation:**  
