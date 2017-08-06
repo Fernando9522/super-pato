@@ -13,4 +13,4 @@ The MultiLang method is a method relying on the very useful feature of Windows. 
 [MultiLang method presentation](https://youtu.be/Sk2NfTLyEGM)  
 [Presentation of encoding adapted from HAK5 encoder - without MultiLang](https://www.youtube.com/watch?v=4nbv-LyDWvk)  
 
-The MultiLang method seems flawless in compatison with the encoding method adapted from the HAK5 rubber duckys' encoder which doesn't provide 100% reliability in all languages.
+The MultiLang method seems flawless in comparison with the encoding method adapted from the HAK5 rubber duckys' encoder which doesn't provide 100% reliability in all languages.
