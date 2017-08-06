@@ -32,7 +32,8 @@
 > Heatshrink could be used to cover the bare metal parts.
 5. Cut wire into around 3x6cm pieces (check images for the exact length), strip the rubber from their ends and solder them accordingly to the pattern presented on the images.
 > Personally I like to put all the cables inside the pins and bend them before soldering. It's shown at the images below.
-6. Connect the device to PC, it should be [blinking](https://youtu.be/ZgmhzojPXA4)
+6. Connect the device to PC, the bluetooth module should be [blinking](https://youtu.be/ZgmhzojPXA4). 
+> Once you connect to the bluetooth module with the mobile application the blinking should turn into steady light.
 7. Optionally the USB type A connector could be soldered to the USB OTG adapter and stabilized with hot glue as displayed on the pictures below.
 > By wiping the hot glue with a finger you could get rid of the hot glue excess (the connector at the bottom of the picture had its glue "wiped" so it's not so bulky unlike the other two connectors above it). Pictures don't show it clearly but the hot glue is also added on the other side of the connectors.
 
