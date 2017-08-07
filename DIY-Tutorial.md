@@ -10,7 +10,8 @@
 
 
 # Prerequisites 
-* Arduino Pro Micro 5V 16Mhz (8Mhz version would get damaged without additional plugin. Take a look at product description for "Supported under Arduino IDE v1.0.2" which means that the device may not work without reflashing. Pick those with v1.05 support instead. I personally recommend [this seller](http://www.ebay.co.uk/usr/scooterboy101), gives outstanding support and has good knowledge about these devices.)
+* Arduino Pro Micro 5V 16Mhz 
+> (8Mhz version would get damaged without additional plugin. Take a look at product description for "Supported under Arduino IDE v1.0.2" which means that the device may not work without reflashing. Pick those with v1.05 support instead. I personally recommend [this seller](http://www.ebay.co.uk/usr/scooterboy101), gives outstanding support and has good knowledge about these devices.)
 * bluetooth module HC-06
 * 2K Ohm resistor
 * 4.7K Ohm resistor (tested and working with 5.1k too)
@@ -26,7 +27,7 @@
 1. Make sure to have all prerequisites. 
 2. Desolder and remove pins from the bluetooth module. It may be difficult to desolder them all at once, I used pliers to make the metal pins straight and did gentle rotational movements to destroy the black plastic which holds them together and removed them separately. 
 > It's a good idea to get rid of the solder inside the pins so it's possible to put the cables through the pins before soldering. It makes the soldering much easier. [This video](https://youtu.be/yFS7uNK31O8) shows how I do it.
-3. Hot glue the Arduino and bluetooth boads together (chips pointing outwards) 
+3. Hot glue the Arduino and bluetooth boards together (chips pointing outwards) 
 > Practice makes perfect but the point is to put enough hot glue for a firm connection but not enough to reach and block the pins. After some practice I put less of the hot glue and press the 2 parts harder, this way the device is a bit thinner than the first prototypes. I'd recommend to practice the movement of connecting the 2 boards without actually using glue.
 4. Cut a 6cm piece of wire, cut 1 "leg" of each resistor (2k and 4.7k) and create voltage divider by soldering all 3 together. 
 > Heatshrink could be used to cover the bare metal parts.
