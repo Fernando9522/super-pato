@@ -31,8 +31,16 @@
 > Practice makes perfect but the point is to put enough hot glue for a firm connection but not enough to reach and block the pins. After some practice I put less of the hot glue and press the 2 parts harder, this way the device is a bit thinner than the first prototypes. I'd recommend to practice the movement of connecting the 2 boards without actually using glue.
 4. Cut a 6cm piece of wire, cut 1 "leg" of each resistor (2k and 4.7k) and create voltage divider by soldering all 3 together. 
 > Heatshrink could be used to cover the bare metal parts.
-5. Cut wire into around 3x6cm pieces (check images for the exact length), strip the rubber from their ends and solder them accordingly to the pattern presented on the images.
+5. Cut wire into around 3x6cm pieces (check images for the exact length), strip the rubber from their ends and solder them accordingly to the pattern presented in the table and images below.
 > Personally I like to put all the cables inside the pins and bend them before soldering. It's shown at the images below.
+
+| Arduino | HC-06 |
+| --- | --- |
+| VCC | VCC |
+| GND | GND |
+| 9 | TXD |
+| 8 | RXD (through 2k resistor) |
+| 8 | RXD (through 4.7k resistor) |
 6. Connect the device to PC, the bluetooth module should be [blinking](https://youtu.be/ZgmhzojPXA4). 
 > Once you connect to the bluetooth module with the mobile application the blinking should turn into steady light.
 7. Optionally the USB type A connector could be soldered to the USB OTG adapter and stabilized with hot glue as displayed on the pictures below.
@@ -51,6 +59,8 @@
 ![](http://i.imgur.com/QPFaG62.jpg)
 
 ![](http://i.imgur.com/wjSBxaS.jpg)
+
+
 
 
 # Software (Arduino) 
