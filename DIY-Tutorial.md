@@ -32,7 +32,7 @@
 4. Cut a 6cm piece of wire, cut 1 "leg" of each resistor (2k and 4.7k) and create voltage divider by soldering all 3 together. 
 > Heatshrink could be used to cover the bare metal parts.
 5. Cut wire into around 3x6cm pieces (check images for the exact length), strip the rubber from their ends and solder them accordingly to the pattern presented in the table and images below.
-> Personally I like to put all the cables inside the pins and bend them before soldering. It's shown at the images below.
+> Personally I like to put all the cables inside the pins and bend them before soldering. By the way this project uses Arduino pin 8 and 9 for the bluetooth communication however it could also be done with the pins: 10, 11, 14 (MISO), 15 (SCK), 16 (MOSI). (Why not all pins could be used for that purpose is explained [here](https://www.arduino.cc/en/Reference/SoftwareSerial)) The project uses "Software serial", alternatively "Hardware serial" could be used (pins 1 and 2) but I'm afraid it would require desoldering the pins before each upload of the code to Arduino. 
 
 | Arduino | HC-06 |
 | --- | --- |
