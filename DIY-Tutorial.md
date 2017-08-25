@@ -24,6 +24,7 @@
 
 
 # Hardware setup
+[This video](https://www.youtube.com/watch?v=T4SH1lr49o8&list=PLnVVAaZSdNGtcMunS1_Wy3smTZLlzIaV2&index=7) presents most of the steps below.  
 1. Make sure to have all prerequisites. 
 2. Desolder and remove pins from the bluetooth module. It may be difficult to desolder them all at once, I used pliers to make the metal pins straight and did gentle rotational movements to destroy the black plastic which holds them together and removed them separately. 
 > It's a good idea to get rid of the solder inside the pins so it's possible to put the cables through the pins before soldering. It makes the soldering much easier. [This video](https://youtu.be/yFS7uNK31O8) shows how I do it.
