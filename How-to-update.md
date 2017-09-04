@@ -1,7 +1,7 @@
 Make sure that both softwares are updated (Arduino code and Android application) otherwise some features may not work as expected. 
 
 # Updating Arduino:  
-1. Download [Arduino IDE](https://www.arduino.cc/en/Main/Software).  
+1. Download [Arduino IDE](https://www.arduino.cc/en/Main/Software). (It's free)  
 2. Open [this code](https://github.com/michalmonday/supremeDuck/blob/master/source/supremeDuck.ino) in Arduino IDE.  
 3. Pick: "Tools -> Board -> Arduino Leonardo".  
 4. Make sure the device is connected to PC and pick: "Tools -> Port -> COM X (Arduino Leonardo)".  
