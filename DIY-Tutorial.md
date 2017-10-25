@@ -41,7 +41,7 @@
 | GND | GND |
 | 9 | TXD |
 | 8 | RXD (through 2k resistor) |
-| 8 | RXD (through 4.7k resistor) |
+| GND | RXD (through 4.7k resistor) |
 6. Connect the device to PC, the bluetooth module should be [blinking](https://youtu.be/ZgmhzojPXA4). 
 > Once you connect to the bluetooth module with the mobile application the blinking should turn into steady light.
 7. Optionally the USB type A connector could be soldered to the USB OTG adapter and stabilized with hot glue as displayed on the pictures below.
