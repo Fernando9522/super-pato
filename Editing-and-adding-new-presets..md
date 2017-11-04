@@ -10,5 +10,5 @@
 7. To save the project click on "Build" button at the top navigation bar and choose from the 2 options.  
 > 1st option (QR code) requires you to have an application on your mobile to scan the code. The 2nd option ("save .apk to my computer") doesn't require it.  
 
-The process described above is presented in the following video:  
+The process described above is presented in [this video](https://youtu.be/MoPB0OIScLo):  
 
