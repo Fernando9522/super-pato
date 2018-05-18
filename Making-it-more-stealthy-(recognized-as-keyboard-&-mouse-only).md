@@ -48,6 +48,7 @@ After:
 From my observations when you plug supremeDuck or any other Arduino based BadUSB (e.g. Malduino) into PC it gets recognized by it as:  
 1. Human Interface Device  
 2. Arduino Leonardo x 2  
+
 The point of this guide is to make it recognized as Human Interface Device only. Arduino UNO will be used as ISP (In-system programmer). It will be flashed with the code found in standard examples of Arduino IDE, then connected to the Arduino-Pro-Micro/supremeDuck/Malduino/Atmega32U4/etc and used to flash the code without bootloader and without CDC (Communication Device Class) interface being initialized.  
 
 Additional aim of this guide is to make it easy to repeat/revert this process in further attempts without the need to copy/modify/backup/revert any files (unless Arduino IDE is reinstalled). To achieve that there will be:
