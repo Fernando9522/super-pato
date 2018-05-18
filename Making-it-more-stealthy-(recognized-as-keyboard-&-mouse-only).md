@@ -12,8 +12,15 @@
 - PC won't know that it's an Arduino
 - PC won't recognize it as multiple devices
 - Possibly lower set up time after first plug-in on the new machine (need a proof though, didn't test it enough)
-- Gets reliability comparable with the original HAK5 rubber ducky
+- Gets reliability comparable with the original HAK5 rubber ducky  
 
+Before:
+![image-before](https://i.imgur.com/Hni9tXv.png)
+
+After:
+![image-after](https://i.imgur.com/BIhvIzY.png?1)
+
+> I used [USBDeview](https://www.nirsoft.net/utils/usb_devices_view.html) program to see how it's recognized by PC
 
 
 
