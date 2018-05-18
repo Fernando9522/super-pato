@@ -202,7 +202,7 @@ Additional aim of this guide is to make it easy to repeat/revert this process in
 
 > If there is a problem with uploading process and there is no firm connection between 2 boards (e.g. using of tied cables instead of clips or solder) then most likely it's a connection problem.
 
-21. After uploading process is completed both all the leds should be emmiting steady light.
+21. After uploading process is completed all the leds should be emmiting steady light.
 
 ![image-light](https://i.imgur.com/zr3L9EK.jpg)
 
