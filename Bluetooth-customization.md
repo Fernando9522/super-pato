@@ -1,3 +1,5 @@
+Edit (28/05/2018): The latest update (1.05) allows to change the bluetooth name and pin directly from user interface (Categories -> Settings).
+
 The whole process is presented in the following video:  
 [Video presentation](https://www.youtube.com/watch?v=KsuUSxYfdU8&index=4&list=PLnVVAaZSdNGtcMunS1_Wy3smTZLlzIaV2)
 
