@@ -12,8 +12,7 @@ The steps from 3 to 5 are presented in the following video (step 3 starts at 2:2
 [Video presentation](https://www.youtube.com/watch?v=KsuUSxYfdU8&index=4&list=PLnVVAaZSdNGtcMunS1_Wy3smTZLlzIaV2)
 
 # Updating Android app:  
-1. Uninstall the old app.
-2. Install the new app from the [Google Play Store](https://play.google.com/store/apps/details?id=appinventor.ai_michalmonday17.supremeDuck).
+The "Update" button should be available at [Google Play Store](https://play.google.com/store/apps/details?id=appinventor.ai_michalmonday17.supremeDuck) once new version is released.
 
 
 
