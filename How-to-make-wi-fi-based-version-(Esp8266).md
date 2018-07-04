@@ -9,7 +9,7 @@ A board with Atmega32U4 such as:
 
 A board with Esp8266 module such as:  
 - Esp8266 12-F  
-- NodeMCU (most of the steps listed below are not applying to it because it can be flashed much more easily, all you have to do with is to upload [Esp8266.ino]() to it using Arduino IDE, there are many guides on how to do that) 
+- NodeMCU (most of the steps listed below are not applying to it because it can be flashed much more easily, all you have to do with is to upload [Esp8266.ino](https://github.com/michalmonday/supremeDuck/blob/master/source/Esp8266%20version%20stuff/Esp8266.ino) to it using Arduino IDE, there are many guides on how to do that) 
 
 Both modules (Atmega32U4 + Esp8266) should be connected together as shown in the wifi_ducky project. Make sure that the GPIO 0 pin of Esp8266 is connected to ground, it is necessary to flash Esp8266 with new code, after the flashing process is done it should be disconnected.
 
@@ -41,7 +41,7 @@ Choose Tools -> Board -> Arduino Leonardo (for all boards except Arduino Pro Mic
 ### 3. Download Esp8266Flasher program ([32-bit](https://github.com/nodemcu/nodemcu-flasher/tree/master/Win32/Release), [64-bit](https://github.com/nodemcu/nodemcu-flasher/tree/master/Win64/Release)).
 The code uploaded in step 2 will make sure that the Esp8266 code uploaded using this program will reach Esp8266 even that it's not directly connected to PC (it's connected through the board with Atmega32U4).
 
-### 4. Open the Esp8266Flasher program, load this [bin file]() and flash it.
+### 4. Open the Esp8266Flasher program, load this [bin file](https://github.com/michalmonday/supremeDuck/blob/master/source/Esp8266%20version%20stuff/Esp8266.bin) and flash it.
 Pick the COM port corresponding to the connected device.  
 Press `Config` and click on the cog icon to load the file, check the corresponding checkbox and uncheck others. Use `0x00000` offset.  
 Press `Advanced` and select `115200` Baudrate, `4MByte` Flash size, `80MHz` Flash speed and `DIO` SPI Mode.  
