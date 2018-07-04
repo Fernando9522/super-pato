@@ -1,4 +1,4 @@
-### 1. Get/assemble the hardware. See this [github page](https://github.com/spacehuhn/wifi_ducky) or this [video](https://www.youtube.com/watch?v=Utq4C9S3-uI) to see how to do that. Different boards/modules can be used for it, but the hardware must have: 
+### 1. Get/assemble the hardware. Check spacehuhn's [wifi_ducky](https://github.com/spacehuhn/wifi_ducky) or Seytonic's [video](https://www.youtube.com/watch?v=Utq4C9S3-uI) about it to see how to do that. Different boards/modules can be used for it, but the hardware must have: 
  
 A board with Atmega32U4 such as:
 - Arduino Pro Micro 5V (with external 3.3V regulator or two 3.6V zener diodes)  
