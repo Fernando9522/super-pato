@@ -74,5 +74,6 @@ The whole process is slightly complicated so I tried to keep it as simple as pos
 - as shown in the esp flasher code [here](https://gist.github.com/spacehuhn/b2b7d897550bc07b26da8464fa7f4b36) digital output pins could be used to determine GPIO 0 state, this would require more wiring work but would save time attaching/detaching GPIO 0 to GND over and over again.
 
 ### 7. The device should be in working order now.
-Let me know on discord (michalmonday#3687) if you encounter any problems while following this guide.
+You could check [this video](https://www.youtube.com/watch?v=9ymxGS2ZTC8&index=10&t=1s&list=PLnVVAaZSdNGtcMunS1_Wy3smTZLlzIaV2) to see how to use it instead of the initial bluetooth version.
+Please let me know on discord (michalmonday#3687) if you encounter any problems while following this guide.
 
