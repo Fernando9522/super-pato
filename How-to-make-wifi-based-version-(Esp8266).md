@@ -12,6 +12,8 @@ A board with Esp8266 module such as:
 - NodeMCU (most of the steps listed below are not applying to it because it can be flashed much more easily, all you have to do with is to upload [Esp8266.ino](https://github.com/michalmonday/supremeDuck/blob/master/source/Esp8266%20version%20stuff/Esp8266.ino) to it using Arduino IDE, there are many guides on how to do that) 
 - Wemos D1 Mini (also can be programmed directly through its micro USB socket)
 
+Both modules (Atmega32U4 + Esp8266) should be connected together as shown in the wifi_ducky project. 
+
 ![wiring image](https://i.imgur.com/9G9iSy0.png)
 
 The image below shows how two 3.6V zener diodes can be used instead of voltage regulator (they go from 5V pin of CJMCU into VCC of Esp that expects 3.3V). 
@@ -20,9 +22,11 @@ The image below shows how two 3.6V zener diodes can be used instead of voltage r
 ![wiring image zener diodes](https://i.imgur.com/uLOBnLO.png)
 
 
-Both modules (Atmega32U4 + Esp8266) should be connected together as shown in the wifi_ducky project. Make sure that the GPIO 0 pin of Esp8266 is connected to ground, it is necessary to flash Esp8266 with new code, after the flashing/programming process is done it should be disconnected.
+Make sure that the GPIO 0 pin of Esp8266 is connected to ground, it is necessary to flash Esp8266 with new code, after the flashing/programming process is done it should be disconnected.
 
 ![gpio0 image](https://i.imgur.com/H3K8zTe.png)
+
+Possibly the following steps of this guide could work with [WHID](https://github.com/whid-injector/WHID) (as long as GPIO 0 is connected to ground) but I didn't test it so I'm not sure.
 
 ### 2. Upload the code below to your chosen Atmega32U4 board using Arduino IDE:  
 ```cpp
