@@ -10,6 +10,7 @@ A board with Atmega32U4 such as:
 A board with Esp8266 module such as:  
 - Esp8266 12-F  
 - NodeMCU (most of the steps listed below are not applying to it because it can be flashed much more easily, all you have to do with is to upload [Esp8266.ino](https://github.com/michalmonday/supremeDuck/blob/master/source/Esp8266%20version%20stuff/Esp8266.ino) to it using Arduino IDE, there are many guides on how to do that) 
+- Wemos D1 Mini (also can be programmed directly through its micro USB socket)
 
 ![wiring image](https://i.imgur.com/9G9iSy0.png)
 
