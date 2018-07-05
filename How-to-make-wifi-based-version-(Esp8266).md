@@ -11,7 +11,17 @@ A board with Esp8266 module such as:
 - Esp8266 12-F  
 - NodeMCU (most of the steps listed below are not applying to it because it can be flashed much more easily, all you have to do with is to upload [Esp8266.ino](https://github.com/michalmonday/supremeDuck/blob/master/source/Esp8266%20version%20stuff/Esp8266.ino) to it using Arduino IDE, there are many guides on how to do that) 
 
-Both modules (Atmega32U4 + Esp8266) should be connected together as shown in the wifi_ducky project. Make sure that the GPIO 0 pin of Esp8266 is connected to ground, it is necessary to flash Esp8266 with new code, after the flashing process is done it should be disconnected.
+![wiring image](https://i.imgur.com/9G9iSy0.png)
+
+The image below shows how two 3.6V zener diodes can be used instead of voltage regulator (they go from 5V pin of CJMCU into VCC of Esp that expects 3.3V). 
+>Btw lack of isolation on the image below is bad practice (heatshrink tubes could be used). It also has 2 resistors that are not used in Seytonic's video but I added them because of [wiring diagram](https://i.imgur.com/yjhsmQZ.jpg) found online (I guess CH_PD resistor allows to reset the board by connecting it to GND, without the resistor it would be also directly connected with VCC).
+
+![wiring image zener diodes](https://i.imgur.com/uLOBnLO.png)
+
+
+Both modules (Atmega32U4 + Esp8266) should be connected together as shown in the wifi_ducky project. Make sure that the GPIO 0 pin of Esp8266 is connected to ground, it is necessary to flash Esp8266 with new code, after the flashing/programming process is done it should be disconnected.
+
+![gpio0 image](https://i.imgur.com/H3K8zTe.png)
 
 ### 2. Upload the code below to your chosen Atmega32U4 board using Arduino IDE:  
 ```cpp
@@ -61,7 +71,7 @@ Pick Tools -> Boards -> Arduino Leonardo (exception for Arduino Pro Micro 3.3V)
 ### 6. Disconnect GPIO 0 (Esp8266) from ground.
 The whole process is slightly complicated so I tried to keep it as simple as possible but there are few ways it could be done in more convenient way. For example:
 - a switch between GPIO 0 and ground could be used
-- as shown in the esp flasher code [here](https://gist.github.com/spacehuhn/b2b7d897550bc07b26da8464fa7f4b36) digital output pins could be used to determine GPIO 0 state, this would require more wiring work but would save time attaching/detaching GPIO 0 to GND over and over again
+- as shown in the esp flasher code [here](https://gist.github.com/spacehuhn/b2b7d897550bc07b26da8464fa7f4b36) digital output pins could be used to determine GPIO 0 state, this would require more wiring work but would save time attaching/detaching GPIO 0 to GND over and over again.
 
 ### 7. The device should be in working order now.
 Let me know on discord (michalmonday#3687) if you encounter any problems while following this guide.
