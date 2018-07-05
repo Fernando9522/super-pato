@@ -1,3 +1,5 @@
+The tutorial presents the whole process in detailed way but only for the bluetooth version. [This page](https://github.com/michalmonday/supremeDuck/wiki/How-to-make-wifi-based-version-(Esp8266)) shows some additional info about making wifi based version.
+
 # List of contents: 
 * [Prerequisites](#prerequisites)
 * [Hardware setup](#hardware-setup)
