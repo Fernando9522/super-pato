@@ -75,7 +75,7 @@ Pick Tools -> Boards -> Arduino Leonardo (exception for Arduino Pro Micro 3.3V)
 
 ### 6. Disconnect GPIO 0 (Esp8266) from ground.
 The whole process is slightly complicated so I tried to keep it as simple as possible but there are few ways it could be done in more convenient way. For example:
-- a switch between GPIO 0 and ground could be used
+- a switch between GPIO 0 and ground could be used ([like this](https://i.imgur.com/vKeAMgx.jpg) but possibly with thinner cables)
 - as shown in the esp flasher code [here](https://gist.github.com/spacehuhn/b2b7d897550bc07b26da8464fa7f4b36) digital output pins could be used to determine GPIO 0 state, this would require more wiring work but would save time attaching/detaching GPIO 0 to GND over and over again.
 
 ### 7. The device should be in working order now.
