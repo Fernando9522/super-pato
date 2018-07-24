@@ -65,11 +65,11 @@ Press `Operation` and finally press `Flash(F)`
 ### 5. Open the main supremeDuck code in Arduino IDE, uncomment line shown below and upload the code.  
 The line to uncomment is:
 ```cpp
-//#define USE_TX_RX_PINS
+//#define WIFI_DUCKY_SETUP
 ```
 It should look like this after uncommenting:
 ```cpp
-#define USE_TX_RX_PINS
+#define WIFI_DUCKY_SETUP
 ```
 Pick Tools -> Boards -> Arduino Leonardo (exception for Arduino Pro Micro 3.3V)
 
