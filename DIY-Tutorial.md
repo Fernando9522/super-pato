@@ -69,7 +69,7 @@ The tutorial presents the whole process in detailed way but only for the bluetoo
 
 # Software (Arduino) 
 1. Download [Arduino IDE](https://www.arduino.cc/en/main/software) and [Arduino sketch](https://github.com/michalmonday/supremeDuck/blob/master/source/supremeDuck.ino).
-2. Open arduino IDE. Click on Tools -> Board -> **Arduino Leonardo (Important - incorrect setting of the board may require [reflashing](http://forum.arduino.cc/index.php?topic=376079.0) the arduino or performing a [tricky reset](https://www.youtube.com/watch?v=dFQHXm1y5Io).** Click on Tools -> Port -> COM X. Paste [this sketch](https://github.com/michalmonday/supremeDuck/blob/master/source/bluetooth%20customization/btSerial.ino) and upload it to the board.
+2. Open arduino IDE. Click on Tools -> Board -> **Arduino Leonardo (Important - incorrect setting of the board may require [reflashing](http://forum.arduino.cc/index.php?topic=376079.0) the arduino or performing a [tricky reset](https://www.youtube.com/watch?v=dFQHXm1y5Io).** Click on Tools -> Port -> COM X. Paste [this sketch](https://github.com/michalmonday/supremeDuck/blob/master/tools/btSerial.ino) and upload it to the board.
 3. Open Tools -> Serial Monitor, the new window will popup, select "No line ending" and "9600 baud" at the bottom corner of it. Then input the following commands into the input box located at the top:
 AT+NAMEyourname
 AT+PIN1234
